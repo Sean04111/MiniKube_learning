@@ -33,5 +33,6 @@ minikube dashboard
 启动 web 端控制面板<br>
 同时注意在root中的kubectl工具可以加到path环境变量后可以直接用，而在非root中，minikube中的kubectl工具已经内置，所以应该使用
 ```
-minikube kubectl
+minikube kubectl -- 
 ```
+注意要加“ -- ”后面跟正常的kubectl命令
